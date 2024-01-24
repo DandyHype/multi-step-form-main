@@ -500,6 +500,7 @@
    }
 
    .nav__buttons-mobile{
+    z-index: 3;
     display: flex;
     justify-content: space-between;
     width: 100%;
