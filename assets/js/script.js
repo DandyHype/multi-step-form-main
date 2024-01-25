@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             })
             .join('');
-        userChoice.yearlyPlan ? titleH2.innerHTML += '(Yearly)' : titleH2.innerHTML += '(Monthly)';
+        userChoice.yearlyPlan ? titleH2.innerHTML += ' (Yearly)' : titleH2.innerHTML += ' (Monthly)';
 
         addonsService.forEach(function (service) {
             if (userChoice.userExtras[service.dataset.extras]) {
